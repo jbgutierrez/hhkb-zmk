@@ -4,4 +4,4 @@ config KSCAN_HHKB_PRO2
 
 config PM_WAKE_SENSOR
     bool
-    default n
+    default y

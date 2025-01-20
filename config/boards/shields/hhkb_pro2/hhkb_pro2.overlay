@@ -7,6 +7,13 @@
         zmk,matrix_transform = &default_transform;
     };
 
+    pm_wake_sensor: pm_wake_sensor {
+        compatible = "zmk,pm-wake-sensor";
+        status = "okay";
+        power-gpios = <&hhkb_pro2_connector 19 GPIO_ACTIVE_HIGH>;
+        sensor-gpios = <&hhkb_pro2_connector 10 (GPIO_ACTIVE_LOW|GPIO_PULL_DOWN)>;
+    };
+
     kscan0: kscan0 {
         compatible = "zmk,kscan-hhkb-pro2";
         gpios = <&hhkb_pro2_connector 0 GPIO_ACTIVE_HIGH>,               /* 0: POWER */
