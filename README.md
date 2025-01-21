@@ -11,7 +11,7 @@ Just fork this repository, enable Github Actions in the forked repository, and p
 
 To flash the firmware, you can short reset and ground pins on the Nice!Nano (or any other nRF52840 board) and drag and drop the firmware file to the USB mass storage device that will appear.
 
-![pcb](./docs/images/pcb.jpg)
+![pcb](./docs/images/pcb.jpeg)
 
 ## Acknowledgements
 
