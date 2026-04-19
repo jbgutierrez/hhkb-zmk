@@ -1,5 +1,7 @@
 # HHKB Pro 2 with ZMK firmware
 
+[![Build](https://github.com/jbgutierrez/hhkb-zmk/actions/workflows/build.yml/badge.svg)](https://github.com/jbgutierrez/hhkb-zmk/actions/workflows/build.yml)
+
 This project provides an out-of-tree Zephyr module and shield definition for the HHKB Pro2 daughter board.
 
 Power saving is enabled by default, so the keyboard will enter deep sleep after 
