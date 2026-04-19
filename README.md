@@ -1,6 +1,6 @@
 # HHKB Pro 2 with ZMK firmware
 
-This project provides an out-of-tree Zephyr module and shield definition for the HHKB Pro2 daugther board.
+This project provides an out-of-tree Zephyr module and shield definition for the HHKB Pro2 daughter board.
 
 Power saving is enabled by default, so the keyboard will enter deep sleep after 
 5 minutes of inactivity. The keyboard will wake up whenever button or vibration sensor is pressed or movement is detected. PINs 19 and 10 are used for that.
